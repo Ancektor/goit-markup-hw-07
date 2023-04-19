@@ -226,71 +226,49 @@ select {
 
 /*---------------------------------Section2-----------------------------*/
 .section-two {
-   padding-top: 120px;
-   padding-bottom: 120px;    
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 .two-section {
-    flex-basis: calc((100%-3*24)/4);
+    display: block;
 }
+
 .two-section-icon {
-    background-color: var(--color-cloud);
-    border-radius: 4px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
+    display: none;
 }
-.two-section-cvg {
+
+/* .two-section-cvg {
     width: 62px;
     height: 62px;
-}
+} */
+
 .section-two-text {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
     justify-content: center;
 }
+
 .section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-background-main);
-    margin-bottom: 8px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-background-main);
+margin-bottom: 8px;
 }
+
 .section-text {
-    width: 264px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /*---------------------------------Section3-----------------------------*/
 .section-three {
-    padding-bottom: 120px;
-}
-.section-three-img {
-    display: flex;
-    gap: 24px;
-}
-.three-title-section {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--color-background-main);
-    margin-bottom: 72px;    
-}
-.section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-background-main);
-}
-.img-section-three {
-    
+    display: none;
 }
 
 /*---------------------------------Section4-----------------------------*/
@@ -309,15 +287,12 @@ select {
     border-radius: 0px 0px 4px 4px;
     
 }
-.section-four-li { 
-    /* flex-basis: calc((100% - 72px) /4);
-    flex-basis: 100%; */
-
-    display: flex;
-    
-    gap: 24px;
-    
+.section-four-li {     
+    flex-wrap: wrap;
+    display: flex;    
+    gap: 72px;    
     margin-top: 72px;
+    justify-content: center;
 }
 .four-title-section {
     font-size: 36px;

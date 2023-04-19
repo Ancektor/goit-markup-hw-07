@@ -2,20 +2,109 @@
     .conteiner {
             width: 428px;                       
         }
-  
+    .section-four-li {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 64px 24px;
+        margin-top: 72px;
+        justify-content: center;
+    }
+   
+    
 }
-
 @media screen and (min-width: 768px) {
     .conteiner {
         width: 768px;
-        padding-bottom: 120px;
-        padding-top: 120px;
     }
+         .section-three {
+             display: none;
+         }
+    
+   
 }
 
 @media screen and (min-width: 1158px) {
         .conteiner {
                 width: 1158px;
             }
+ /*---------------------------------Section2-----------------------------*/
+        .section-two {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        .two-section {
+            flex-basis: calc((100%-3*24)/4);
+        }
+        .two-section-icon {
+            background-color: var(--color-cloud);
+            border-radius: 4px;
+            height: 112px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .two-section-cvg {
+            width: 62px;
+            height: 62px;
+        }
+        .section-two-text {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+        .section-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--color-background-main);
+            margin-bottom: 8px;
+        }
+        .section-text {
+            width: 264px;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+/*---------------------------------Section3-----------------------------*/
+        .section-three {
+            display: flex;
+            padding-bottom: 120px;
+        }
+        .section-three-img {
+            display: flex;
+            gap: 24px;
+        }
+        .three-title-section {
+            text-align: center;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--color-background-main);
+            margin-bottom: 72px;
+        }
+        .section-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--color-background-main);
+        }
 
+        .section-four {
+            padding-bottom: 120px;
+            padding-top: 120px;
+        }
+/*---------------------------------Section4-----------------------------*/
+        .section-four-li {
+            display: flex;
+            gap: 24px;
+            margin-top: 72px;
+            justify-content: center;
+            /* flex-basis: calc((100% - 72px) /4);
+                    flex-basis: 100%; */
+        }
 }
