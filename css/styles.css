@@ -226,12 +226,12 @@ select {
 
 /*---------------------------------Section2-----------------------------*/
 .section-two {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .two-section {
-    display: block;
+    /* display: block; */
 }
 
 .two-section-icon {
@@ -251,13 +251,13 @@ select {
 }
 
 .section-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--color-background-main);
-margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-background-main);
+    margin-bottom: 8px;
 }
 
 .section-text {
@@ -367,10 +367,11 @@ margin-bottom: 8px;
 .customers-ul {
     gap: 24px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .customers-li {
-    width: 100%
+ 
 }
 .customers-logo {
     fill: var(--color-costumers);
@@ -379,7 +380,7 @@ margin-bottom: 8px;
 .customers-svg {
     border: 1px solid var(--color-costumers);
     border-radius: 4px;
-    width: 168px;
+    width: 190px;
     height: 88px;
     display: flex;
     justify-content: center;
