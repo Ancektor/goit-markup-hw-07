@@ -182,8 +182,7 @@ select {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .hero-title {
     width: 496px;
@@ -352,8 +351,8 @@ select {
 
 /*---------------------------------Section5-----------------------------*/
 .section-five {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .customers {
     font-size: 36px;
@@ -365,13 +364,13 @@ select {
     color: var(--color-background-main);
 }
 .customers-ul {
-    gap: 24px;
+    gap:72px 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .customers-li {
- 
+    /* width: calc((100% - 16px) /2); */
 }
 .customers-logo {
     fill: var(--color-costumers);
@@ -387,14 +386,7 @@ select {
     align-items: center;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-svg:hover,
-.customers-svg:focus {
-    border-color: var(--color-ocean);
-}
-.customers-svg:hover> .customers-logo,
-.customers-svg:focus> .customers-logo {
-    fill: var(--color-ocean); 
-}
+
 /*---------------------------------Portfolio-----------------------------*/
 .section-portfolio {
     padding-top: 96px;
@@ -502,17 +494,22 @@ select {
 /*---------------------------------FOOTER-----------------------------*/
 .footer-studio {
     background-color: var(--color-background-main);
-    padding: 100px 0px;
-    display: flex;
+    padding: 96px 0px;
+   
+}
+.footer-mobile {
+  
 }
 .footer-txt-hero {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
+    width: 268px;
     color: var(--color-cloud);
     margin-top: 16px;
 }
@@ -520,6 +517,8 @@ select {
     color: var(--color-cloud);
 }
 .logo-text-footer {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-family: 'Raleway',
             sans-serif;
@@ -532,8 +531,9 @@ select {
     color: var(--color-iris);  
     }
 .div-soc {
-    display: block;
-    margin-left: 120px;
+    margin-top: 72px;
+    /* display: block;
+    margin-left: 120px; */
 }
 .soc-footer {
     gap: 16px;
@@ -547,6 +547,7 @@ select {
     letter-spacing: 0.02em;
     color: var(--color-white);
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .soc-li {
@@ -571,9 +572,17 @@ select {
 }
 .form-footer {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;  
+    gap: 16px;
 }
+   
+
 .e-mail-input {
-    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 72px;    
 }
 .label-footer {
     font-weight: 500;
@@ -581,7 +590,7 @@ select {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-white); 
-    margin-bottom: 16px; 
+    /* margin-bottom: 16px;  */
 }
 .input-footer::placeholder {
     font-weight: 400;
@@ -592,8 +601,9 @@ select {
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
-.input-footer {   
-    display: block;
+.input-footer {  
+    margin: 0 auto;
+    /* display: block; */
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     padding: 8px 16px;
@@ -608,9 +618,11 @@ select {
 }
 
 .input-button {
-    display: flex;
+    margin: 0 auto;
+    display: block;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     gap: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -622,7 +634,7 @@ select {
     border: none;
     box-shadow: none;
     fill: var(--color-white);
-    margin-left: 24px;
+    /* margin-left: 24px; */
     padding: 8px 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
