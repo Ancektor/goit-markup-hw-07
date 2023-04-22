@@ -133,7 +133,7 @@ select {
     left: 0;
     height: 4px;
     background: var(--color-background-btn);
-    bottom: ;
+    bottom: 0;
     border-radius: 2px;
 }
 .adress-link {
