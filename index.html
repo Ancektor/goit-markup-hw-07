@@ -26,13 +26,62 @@
                     <li><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
                     <li><a href="" class="header-link link">Contacts</a></li>
                 </ul>
+                <button class="button-mob js-open-menu" type="button">
+                    <svg>
+                        <use href="./images/icons.svg#icon-hamburger"></use>
+                    </svg>
+                </button>
             </nav>
             <address class="adress">
                 <ul class="adress-list list">
-                    <li><a class="mail adress-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="tel adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="adress-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+        </div>
+        <div class="mobile-menu-container js-menu-container">
+            <button class="js-close-menu button-modal-close" type="button">
+                <svg class="svg-modal-close" width="8" height="8">
+                    <use href="./images/close.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="header-nav list">
+                <li><a href="./index.html" class="header-link current link">Studio</a></li>
+                <li><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+                <li><a href="" class="header-link link">Contacts</a></li>
+            </ul>
+            <div class="mobile-menu2">
+                <ul class="adress-list list">
+                    <li><a class="tel adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="mail adress-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+                <ul class="list-section-soc list">
+                    <li class="soc-section">
+                        <a href="https://www.instagram.com/" class="soc-link link" target="_blank" rel="noreferrer noopener">
+                            <svg class="soc-section-icon" width="16" height="16">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="soc-section">
+                        <a href="https://twitter.com/" class="soc-link link" target="_blank" rel="noreferrer noopener">
+                            <svg class="soc-section-icon" width="16" height="16">
+                                <use href="images/icons.svg#icon-twitter"></use>
+                            </svg></a>
+                    </li>
+                    <li class="soc-section">
+                        <a href="https://www.facebook.com/" class="soc-link link" target="_blank" rel="noreferrer noopener">
+                            <svg class="soc-section-icon" width="16" height="16">
+                                <use href="images/icons.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="soc-section">
+                        <a href="https://www.linkedin.com/" class="soc-link link" target="_blank" rel="noreferrer noopener">
+                            <svg class="soc-section-icon" width="16" height="16">
+                                <use href="images/icons.svg#icon-linkedin"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="main">       
@@ -350,7 +399,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="button-modal-close" data-modal-close type="button">
                 <svg class="svg-modal-close" width="8" height="8">
@@ -407,7 +456,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
  </body>
  </html>
 
