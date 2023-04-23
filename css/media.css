@@ -31,7 +31,8 @@
         background: var(--color-background-btn);
         bottom: -30px;
         border-radius: 2px;
-    }
+        display: block;
+    }  
         .header-link {
             font-style: normal;
             font-weight: 500;
@@ -226,7 +227,7 @@
         padding: 24px;
     }
     .current::after {
-        bottom: -34px;
+        bottom: -27px;
     }
     .adress-list {
         display:flex;
