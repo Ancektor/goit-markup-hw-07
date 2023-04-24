@@ -674,6 +674,7 @@ select {
     flex-wrap: wrap;
     margin-top: 16px;  
     gap: 24px;
+    justify-content: center;
 }
    
 
