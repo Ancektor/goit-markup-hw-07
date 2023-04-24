@@ -33,10 +33,15 @@
         left: 0;
         height: 4px;
         background: var(--color-background-btn);
-        bottom: -32px;
+        bottom: -27px;
         border-radius: 2px;
         display: block;
     }  
+    .header {
+        height: 72px;
+        display: flex;
+        align-items: center;
+    }
         .header-link {
             font-style: normal;
             font-weight: 500;
@@ -52,14 +57,27 @@
     }
     .header-conteiner {
         display: flex;
-        flex-direction: row;
-        align-items: center;
+       
     }
-    .adress-list {        
+   
+    /* .adress-list {        
         display:flex;
         flex-direction: column;
         gap: 12px;
-    }
+        height: 40px;
+    } */
+ .adress {
+     /* margin-left: auto; */
+     display: block;
+ }
+
+ .adress-list {
+     flex-direction: column;
+     gap: 12px;
+ }
+
+
+
     .adress-link {
         font-size: 12px;
         line-height: 1.17;
@@ -111,6 +129,9 @@
     .section-title {
         text-align: left;
     }
+    .section-four-li {
+        gap:72px 24px;
+    }
     .customers-svg {
         width: 168px;
     }
@@ -147,6 +168,12 @@
     .logo-text-footer {
         justify-content: flex-start;
     }    
+    .social-text {
+        text-align: left;
+    }
+    .form-footer {
+        gap: 24px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -158,7 +185,7 @@
         min-height: 584px;
     }
     .header {
-        padding: 24px;
+        padding: 24px 0px;
     }
     .current::after {
         bottom: -27px;
@@ -290,7 +317,6 @@
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        margin-bottom: 72px;
         color: var(--color-background-main);
     }
     .customers-ul {
@@ -315,8 +341,6 @@
     .customers-svg {
         border: 1px solid var(--color-costumers);
         border-radius: 4px;
-        width: 168px;
-        height: 88px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -378,7 +402,7 @@
             letter-spacing: 0.02em;
             color: var(--color-white);
             margin-bottom: 16px;
-            text-align: left;
+           
         }    
         .soc-li {
             width: 40px;
@@ -403,7 +427,7 @@
         .form-footer {
             display: flex;
             flex-wrap: nowrap;
-            gap: 24px;
+            
         }    
         .e-mail-input {
             margin-left: 80px;
