@@ -754,10 +754,10 @@ select {
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scaleY(0);    
 }
-@media screen and (min-width: 320px) and (max-width: 427px) {
+@media screen and (min-width: 300px) and (max-width: 428px) {
     .modal {
         width: 100%;
-        height: 620px;
+        height: 600px;
     }
 }
 .modal {
