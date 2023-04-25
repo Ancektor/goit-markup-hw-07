@@ -270,7 +270,6 @@ select {
 
 .hero-title {
     max-width: 320px;
-    height: 80px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -919,9 +918,8 @@ label {
     outline: transparent;
 }
 .btn-modal-submit {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
+    margin: 0 auto;
     margin-top: 24px;
     width: 169px;
     font-weight: 500;
